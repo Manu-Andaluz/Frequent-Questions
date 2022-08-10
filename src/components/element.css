@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(90deg, rgba(166, 0, 255, 1) 13%, rgba(223, 14, 183, 1) 26%, rgba(223, 14, 183, 1) 72%, rgba(166, 0, 255, 1) 100%);
+}
+
+.container-info {
+    min-height: 70vh;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.info-title h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+    .container-info {
+        width: 100%;
+    }
+
+    .info-title h1 {
+        font-size: 1.2rem;
+    }
+}
