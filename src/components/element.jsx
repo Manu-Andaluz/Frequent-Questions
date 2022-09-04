@@ -6,7 +6,7 @@ const Element = () => {
     <div className="container">
       <div className="container-info">
         <div className="info-title">
-          <h1>Frequent Questions</h1>
+          <h1>Frequent Questions 🤷‍♂️ </h1>
         </div>
         <Question
           title="What is the shipping time?"

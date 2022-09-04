@@ -3,7 +3,7 @@
     align-items: center;
     min-height: 100vh;
     height: auto;
-    background: linear-gradient(90deg, rgba(166, 0, 255, 1) 13%, rgba(223, 14, 183, 1) 26%, rgba(223, 14, 183, 1) 72%, rgba(166, 0, 255, 1) 100%);
+    background-color: #1F1D36;
 }
 
 .container-info {
